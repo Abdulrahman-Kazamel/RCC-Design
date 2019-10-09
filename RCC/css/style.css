@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Roboto:400,900&display=swap');
+
+
+@charset "UTF-8";
+body {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: rgba(59,133,130,1.00);
+	background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+h1 {
+	color: rgba(255,255,255,1.00);
+	font-family: 'Alfa Slab One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.8em;
+	text-align: center;
+	text-shadow: 3px 3px 5px rgba(0,0,0,0.50);
+}
+h2 {
+	font-family: 'Alfa Slab One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.2em;
+	text-align: center;
+}
+p{
+	font-size: 0.9em;
+	line-height: 140%;
+}
+/*Navbar*/
+.navbar-light .navbar-brand {
+ 	color:#317675;
+	font-family: 'Alfa Slab One';
+}
+.navbar-light .navbar-brand:hover {
+ 	color:#317675;
+	font-family: 'Alfa Slab One';
+}
+.logo{
+	text-align: center;
+	margin-top: 120px;
+	margin-bottom: 30px;
+}
+.leftSec {
+	width: 30%;
+	margin-left: 2%;
+	margin-right: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	float: left;
+}
+.rightSec {
+	width: 60%;
+	margin-left: 1%;
+	margin-right: 2%;
+	margin-bottom: 100px;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	float: right;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.65) 0%,rgba(255,255,255,0.20) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.65) 0%,rgba(255,255,255,0.20) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.65) 0%,rgba(255,255,255,0.20) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,0.65) 0%,rgba(255,255,255,0.20) 100%);
+	border-top-right-radius: 50px;
+}
+footer {
+	clear: both;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	padding: 0.01em 16px;
+	font-size: 15px;
+	line-height: 1.5;
+	padding-top: 10px;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.10) 0%,rgba(255,255,255,0.65) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.10) 0%,rgba(255,255,255,0.65) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.10) 0%,rgba(255,255,255,0.65) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,0.10) 0%,rgba(255,255,255,0.65) 100%);	
+}
+
+/*About Page*/
+#video{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+
+/*Contact Page*/
+label{
+	width: 100%;
+	margin-top: 10px;
+}
+input, textarea{
+	width: 100%;
+}
+
+@media (max-width:600px){
+
+body {
+	background-image:none;
+	background-color: rgba(59,133,130,1.00);
+	background-attachment: fixed;
+	font-family: actor;
+	font-style: normal;
+	font-weight: 400;
+}
+.leftSec {
+	width: 92%;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.rightSec {
+	width: 92%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 100px;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.65) 0%,rgba(255,255,255,0.20) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.65) 0%,rgba(255,255,255,0.20) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.65) 0%,rgba(255,255,255,0.20) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,0.65) 0%,rgba(255,255,255,0.20) 100%);
+	border-top-right-radius: 50px;
+}	
+}
